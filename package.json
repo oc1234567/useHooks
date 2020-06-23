@@ -1,10 +1,16 @@
 {
-  "name": "proj",
+  "name": "use-hooks",
   "version": "1.0.0",
-  "description": "",
+  "description": "collect common use-hooks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oc1234567/useHooks/"
+  },
+  "homepage": "https://github.com/oc1234567/useHooks#README.md",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001"
   },
   "author": "",
   "license": "ISC",
@@ -16,9 +22,12 @@
     "webpack": "^4.32.2"
   },
   "devDependencies": {
+    "@storybook/react": "^5.3.19",
     "awesome-typescript-loader": "^5.2.1",
     "source-map-loader": "^0.2.4",
     "typescript": "^3.5.1",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.2",
+    "babel-loader": "8.1.0",
+    "@babel/core": "7.10.3"
   }
 }
