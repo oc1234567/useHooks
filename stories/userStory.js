@@ -1,14 +1,15 @@
-import { storiesOf } from "@storybook/react";
-import { userHooks } from '../src/index'
+import { storiesOf } from '@storybook/react';
 import React from 'react';
 
-const Demo = () => {
-    const result = userHooks();
-    return (
-        <div>
-            <p>{result}</p>
-        </div>
-    )
-}
+import { userHooks } from '../src/index';
 
-storiesOf("user", module).add('Demo', Demo);
+const Demo = () => {
+  const result = userHooks();
+  return (
+    <div>
+      <p>{result}</p>
+    </div>
+  );
+};
+
+storiesOf('user', module).add('Demo', Demo);

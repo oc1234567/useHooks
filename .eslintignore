@@ -1,0 +1,3 @@
+#add ignored file
+.eslintrc.js
+tsconfig.json
